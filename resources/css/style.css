@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: white;
+	width: 100%;
+	border-bottom: 1px solid black;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 0;
+	position: fixed;
+	z-index: 5;
+}
+
+.header-logo {
+	display: flex;	
+	align-items: center;
+	width: 75%;
+	
+
+}
+
+.header-logo span{
+	margin-left: 10px;
+	color: MediumAquamarine;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;	
+	/*width: 45%;*/
+	
+}
+nav span{
+	display: inline-block;
+	margin: 0 10px;
+
+}
+.column{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.column1-img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height:  300px;
+}
+.column1-img2{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+	display: flex;
+	align-items: center;
+	text-align: center;
+	min-height: 299px;
+	margin-top: 80px;
+}
+.column1-img3{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+	display: flex;
+	height: 299px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-top: 80px;
+}
+.container p{
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+.img-heading{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+#img-mainstory{
+	font-size: 40px;
+	margin-left: 20px;
+}
+.md-column-img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+	display: flex;
+	height: 299px;
+	margin-top: 10px;
+	align-items: center;
+	text-align: center;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 83px;
+	margin-bottom: 75px;
+}
+
+
+.column.large{
+	width: 630px;
+}
+
+.column.medium{
+	width: 300px;
+}
+.column-story{
+	display: inline-flex;
+	margin-top: 20px;
+	align-content: flex-end;
+}
+
+.column.small{
+	width: 240px;
+}
+.orca{
+	margin-right: 30px;
+}
+.news-bites h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.news-bites-list{
+display: flex;
+flex-direction: column;
+}
+.news-bites-list span{
+	margin: 0;
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: dimgray;
+	padding: 12px 0 12px 20px;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-size: 12px;
+	position: relative;
+	top: 75px;
+	/*width: 100%;*/
+	height: 325px;
+	flex-direction: column;	
+}
+
+#nav-title{
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	border-right: 1px solid white;
+	padding-right: 25px;
+	
+}
+.copyright{
+	position: relative;
+	left: 20px;
+}
+footer nav{
+	margin-left: 30px;
+}
+nav a{
+	color: black;
+}
+
+
+
+
+
+
